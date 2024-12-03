@@ -2,7 +2,7 @@ name: run test_sum
 
 workflow:
   rules:
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_PIPELINE_SOURCE == 'pull_request_event'
 
 image: python:3.7
 
