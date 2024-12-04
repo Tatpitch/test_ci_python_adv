@@ -5,8 +5,8 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - name: Checkout repository
-        uses: action/checkout@master
+#      - name: Checkout repository
+#        uses: action/checkout@main
       - name: Install Python
         uses: action/setup-python@v1
         with:
