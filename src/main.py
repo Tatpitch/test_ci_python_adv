@@ -1,3 +1,3 @@
 def sum_2(a: int, b: int) -> int:
   # тест функция
-  return a + b + 1 -1
+  return a + b
