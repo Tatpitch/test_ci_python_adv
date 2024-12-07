@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout repository
-        uses: action/checkout@test_ci_python_adv
+        uses: actions/checkout@v3
       - name: Install Python
-        uses: action/setup-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: '3.7'
       - name: Install dependencies
