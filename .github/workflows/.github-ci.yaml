@@ -8,7 +8,7 @@ jobs:
       - name: Checkout repository
         uses: action/checkout@v3
       - name: Install Python
-        uses: action/setup-python@
+        uses: action/setup-python@v4
         with:
           python-version: '3.7'
       - name: Install dependencies
