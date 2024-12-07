@@ -3,12 +3,12 @@ on: push
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout repository
-        uses: action/checkout@main
+        uses: action/checkout@v3
       - name: Install Python
-        uses: action/setup-python@v4
+        uses: action/setup-python@
         with:
           python-version: '3.7'
       - name: Install dependencies
